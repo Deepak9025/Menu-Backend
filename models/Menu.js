@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const Menu = require("./models/Menu"); 
 const menuSchema = new mongoose.Schema({
   day: { type: String, required: true },
   meal: { type: String, required: true },
