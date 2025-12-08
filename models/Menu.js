@@ -6,5 +6,5 @@ const menuSchema = new mongoose.Schema({
   items: { type: String, required: true }, // comma-separated items
 });
 
-module.exports = mongoose.model("Menu", menuSchema, "Menu"); // third param = collection name
+module.exports = mongoose.model("menus", menuSchema, "menus"); // third param = collection name
 
